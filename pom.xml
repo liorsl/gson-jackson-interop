@@ -25,6 +25,24 @@
         </contributor>
     </contributors>
 
+    <build>
+      <plugins>
+          <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-deploy-plugin</artifactId>
+              <version>3.0.0</version>
+              <executions>
+                  <execution>
+                      <id>default-deploy</id>
+                      <phase>deploy</phase>
+                      <goals>
+                          <goal>deploy</goal>
+                      </goals>
+                  </execution>
+              </executions>
+          </plugin>
+      </plugins>
+    </build>
     <dependencies>
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
@@ -60,4 +78,5 @@
             <url>https://mvn.apartiumservices.com/content/repositories/voigon-releases</url>
         </repository>
     </distributionManagement>
+
 </project>
