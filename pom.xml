@@ -75,7 +75,7 @@
     <distributionManagement>
         <repository>
             <id>voigon-releases</id>
-            <url>https://mvn.apartiumservices.com/content/repositories/voigon-releases</url>
+            <url>https://mvn.apartiumservices.com/repository/voigon-releases</url>
         </repository>
     </distributionManagement>
 
