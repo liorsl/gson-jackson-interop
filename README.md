@@ -1,3 +1,6 @@
+[![Maven Build](https://github.com/liorsl/gson-jackson-interop/actions/workflows/maven-publish.yml/badge.svg)](https://github.com/liorsl/gson-jackson-interop/actions/workflows/maven-publish.yml)
+[![Package Version](https://img.shields.io/nexus/r/dev.voigon/gson-jackson-interop?logo=Version&server=https%3A%2F%2Fmvn.apartiumservices.com)](https://mvn.apartiumservices.com/repository/voigon-releases/)
+
 ## Gson-Jackson-Interop
 This library provides some sort of interoperability between Jackson to Gson. 
 Mainly, right now it does two things:
